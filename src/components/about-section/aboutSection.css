@@ -1,0 +1,88 @@
+.about{
+    margin-top: 150px;
+}
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.more{
+color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+.tasks h2{
+color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tasks p{
+color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.tasks img{
+ margin:50px 50px 0 100px;
+ position: relative;
+ right: 50px;
+}
+@media (max-width:768px){
+    .tasks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 500px;
+        margin-top: 300px;
+    }
+    .tasks h2, .tasks p{
+        width: 300px;
+    }
+    .tasks img{
+        margin-left: 0;
+    }
+}
+.aboutBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    margin-top: 50px;
+}

@@ -1,0 +1,131 @@
+
+.contact__materials{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    background: rgb(247, 249, 252);
+    padding: 131px 50px;
+}
+.contact__form{
+    border: 1px solid rgb(239, 240, 246);
+    border-radius: 16px;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+    background: rgb(255, 255, 255);
+    padding:85px 61px;
+    width: 673px;
+
+}
+h2{
+color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact__info{
+    margin-top: 70px;
+}
+.contact__info p{
+color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.second {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid rgb(239, 240, 246);
+    border-radius: 14px;
+    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+    background: rgb(255, 255, 255);
+    padding: 27px 39px;
+    margin-top: 34px;
+}
+textarea{
+    resize: horizontal;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.name, .number, .address, .email, .service, .day{
+    display: flex;
+    flex-direction: column;
+}
+.number, .email, .day{
+    position: relative;
+    right: 270px;
+}
+input{
+    border: 1px solid rgb(239, 240, 246);
+    border-radius: 16px;
+    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+    background: rgb(255, 255, 255);
+    width: 259px;
+    height: 72px;
+}
+label{
+color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+textarea{
+    width: 551px;
+    height: 144px;
+    border: 1px solid rgb(239, 240, 246);
+    border-radius: 16px;
+    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+    background: rgb(255, 255, 255);
+}
+.hero__buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.call {
+    display: flex;
+    gap: 17px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numbers p {
+    color: rgb(24, 37, 179);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    letter-spacing: 0%;
+    text-align: left;
+}
