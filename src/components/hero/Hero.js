@@ -22,7 +22,7 @@ function Hero() {
               <img src={call} alt="" />
               <div className="numbers">
                 <p>Call us now</p>
-                <h2>(414) 567 - 2109</h2>
+                <h2 style={{ whiteSpace: "nowrap" }}>(414) 567 - 2109</h2>
               </div>
             </div>
           </div>
